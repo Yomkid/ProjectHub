@@ -1,0 +1,49 @@
+{
+  "name": "projecthub-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "@react-pdf-viewer/core": "^3.12.0",
+    "@react-pdf-viewer/default-layout": "^3.12.0",
+    "@react-pdf-viewer/search": "^3.12.0",
+    "@react-pdf-viewer/thumbnail": "^3.12.0",
+    "@react-pdf-viewer/toolbar": "^3.12.0",
+    "@react-pdf/renderer": "^4.3.0",
+    "critters": "^0.0.23",
+    "file-saver": "^2.0.5",
+    "framer-motion": "^12.6.3",
+    "fs-extra": "^11.3.0",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^3.0.1",
+    "lucide-react": "^0.487.0",
+    "mammoth": "^1.9.0",
+    "next": "^15.2.4",
+    "pdf-lib": "^1.17.1",
+    "pdf-poppler": "^0.2.1",
+    "pdf2pic": "^3.1.4",
+    "pdfjs-dist": "^3.11.174",
+    "react": "^19.1.0",
+    "react-documents": "^1.2.1",
+    "react-dom": "^19.1.0",
+    "react-icons": "^5.5.0",
+    "react-pdf": "^9.2.1",
+    "react-qr-code": "^2.0.15",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
