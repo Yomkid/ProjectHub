@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { CheckCircleIcon } from '@heroicons/react/20/solid';
+import { CheckIcon  } from '@heroicons/react/20/solid';
 
 
 const features = [
@@ -75,7 +75,7 @@ const PlanCard = ({
     <ul className="mt-4 space-y-3">
       {features.map((feature, index) => (
         <li key={index} className="flex items-start text-sm text-gray-700">
-          <CheckCircleIcon className="h-5 w-5 text-green-500 mr-2" />
+          <CheckIcon  className="h-5 w-5 text-green-500 mr-2" />
           <span>{feature}</span>
         </li>
       ))}

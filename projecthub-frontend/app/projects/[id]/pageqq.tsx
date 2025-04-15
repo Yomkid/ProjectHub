@@ -3,7 +3,9 @@ import Image from "next/image";
 import { projects } from "../ProjectData";
 
 export default function ProjectDetail({ params }: { params: { id: string } }) {
-  const project = projects.find((p) => p.id === parseInt(params.id));
+  const projectId = params?.id ? parseInt(params.id) : null;
+  const project = projects.find((p) => p.id === projectId);
+
 
   if (!project) return notFound(); // Show 404 if project doesn't exist
 

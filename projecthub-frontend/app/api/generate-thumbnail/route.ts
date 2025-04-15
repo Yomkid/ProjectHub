@@ -5,7 +5,7 @@ import path from "path";
 import { PDFDocument } from "pdf-lib"; // pdf-lib replaces pdf-poppler
 import sharp from "sharp";
 import mammoth from "mammoth";
-import { createCanvas, loadImage } from '@napi-rs/canvas';
+// import { createCanvas, loadImage } from '@napi-rs/canvas';
 
 const DOCS_PATH = path.join(process.cwd(), "public/documents");
 const THUMBNAILS_PATH = path.join(process.cwd(), "public/thumbnails");
@@ -105,3 +105,6 @@ function wrapText(ctx: any, text: string, x: number, y: number, maxWidth: number
   }
   ctx.fillText(line, x, y);
 }
+// Import the createCanvas function from '@napi-rs/canvas'
+import { createCanvas } from '@napi-rs/canvas';
+

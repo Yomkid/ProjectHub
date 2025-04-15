@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import { Document, Page } from "react-pdf";
 import { pdfjs } from "react-pdf";
-import mammoth from "mammoth";
+// import mammoth from "mammoth";
 
 // Correct way to set up the PDF worker
 // pdfjs.GlobalWorkerOptions.workerSrc = new URL(
