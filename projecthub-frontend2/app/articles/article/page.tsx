@@ -2,13 +2,11 @@
 
 import { useEffect, useRef, useState, useCallback, memo } from 'react';
 import { Bookmark, Share2, ThumbsUp, Eye, Printer, Quote, CheckCircle, ChevronRight, ChevronDown, X, List, ListTree } from 'lucide-react';
-import { PDFDownloadLink } from '@react-pdf/renderer';
 import clsx from 'clsx';
 import Head from 'next/head';
 import CitationBox from '@/components/CitationBox';
 import Modal from '@/components/CitationModal';
 
-import { PdfDownloadButton } from '@/components/PdfDownloadButton';
 
 
 
