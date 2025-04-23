@@ -1,0 +1,8 @@
+id INT PRIMARY KEY AUTO_INCREMENT,
+name VARCHAR(50),
+price DECIMAL(10,2),
+billing_cycle ENUM('monthly','yearly'),
+description TEXT,
+features TEXT, -- JSON of features
+type ENUM('basic','student','contributor'),
+created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP

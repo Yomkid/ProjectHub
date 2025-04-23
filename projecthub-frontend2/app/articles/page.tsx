@@ -222,7 +222,7 @@ export default function BlogPage() {
     return (
         <div className="">
             {showBanner && (
-                <div className="bg-yellow-100 text-gray-800 p-2 mb-2 px-6 flex items-center justify-between text-sm rounded-b-xl shadow-md sticky top-0 z-50">
+                <div className="bg-yellow-100 text-gray-800 p-2 mb-2 px-6 flex items-center justify-between text-sm rounded-b-xl shadow-md">
                     <div className="flex-1 text-center">
                         <span className="font-medium">Get unlimited access to project writeups, resources, and expert insights on ProjectHub for less than ₦500/week. </span>
                         <a href="/membership" className="text-blue-600 underline font-medium">Become a member</a> today!
